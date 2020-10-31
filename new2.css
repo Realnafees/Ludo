@@ -1,0 +1,59 @@
+#grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  height: 620px;
+  width: 640px;
+  background-color: aqua;
+}
+#el-0 {
+  background-image: url("start.png");
+  background-size: cover;
+  }
+  button {
+    background-image: url(dice.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    /* put the height and width of your image here */
+    height: 100px;
+    width: 100px;
+    border: none;
+  }
+
+#el-99{
+  background-image: url("winner.png");
+  background-size: cover;
+
+}
+#el-3,
+#el-7,
+#el-20,
+#el-55,
+#el-86,
+#el-93,
+#el-98 {
+  background-image: url("snake.png");
+  background-size: cover;
+
+}
+#el-1,
+#el-17,
+#el-24,
+#el-50,
+#el-81 {
+  background-image: url("ladder.png");
+  background-size: cover;
+}
+#l,
+#player2 {
+  float: right;
+}
+#full {
+  display: flex;
+  justify-content: space-between;
+}
+
+#s {
+  float: left;
+  display: inline;
+}
